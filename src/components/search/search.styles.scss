@@ -1,0 +1,64 @@
+.search-container {
+  width: 40%;
+  position: relative;
+  top: 80px;
+
+  h1 {
+    font-family: "Axiforma-Bold";
+    color: #ffffff;
+  }
+
+  p {
+    font-family: "Axiforma-Medium";
+    color: #ffffff;
+  }
+
+  .search__wrapper {
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    border-radius: 5px;
+
+    .search__logo {
+      padding: 6px 10px;
+      width: 90%;
+
+      input {
+        position: relative;
+        left: 20px;
+        width: 85%;
+        border: none;
+        font-family: "Axiforma-Light";
+        color: #7c7c7c;
+        top: 2px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    label {
+      margin: 0;
+    }
+
+    button {
+      background: #80d047;
+      padding: 6px 10px;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 1px 0px 4px 1px #63a932;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:hover {
+        background: #72b741;
+        transition: 0.4s ease-out;
+      }
+    }
+  }
+}

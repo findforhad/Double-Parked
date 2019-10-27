@@ -1,0 +1,29 @@
+@import "../../pages/default.styles.scss";
+
+.navigation {
+  padding: 30px 0;
+
+  .logo img {
+    width: 200px;
+  }
+  .nav-item {
+    display: flex;
+    flex-direction: row;
+
+    span {
+      position: relative;
+      top: 4px;
+      right: 30px;
+    }
+
+    span a {
+      color: $white;
+      font-family: $AxiformaSemiBold;
+      &:hover {
+        text-decoration: none;
+        color: #0056b3;
+        transition: 0.4s all;
+      }
+    }
+  }
+}
