@@ -1,0 +1,38 @@
+@import "../../pages/default.styles.scss";
+
+.card__wrapper {
+  padding: 30px;
+  box-shadow: 2px 1px 7px 0px #00000033;
+  text-align: center;
+  margin: 30px 0;
+  border-radius: 5px;
+  border-top: 8px solid $primary-color;
+
+  img {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+
+  .card__text {
+    h4 {
+      font-family: "Axiforma-Regular";
+      color: #2d2d2d;
+    }
+
+    .line {
+      background-color: $primary-color;
+      width: 120px;
+      height: 2px;
+      z-index: 181;
+      margin: 20px auto;
+    }
+
+    p {
+      font-family: "Axiforma-Light";
+      color: $text-color;
+      line-height: 1.647;
+      font-size: 17px;
+    }
+  }
+}

@@ -10,7 +10,9 @@ const Navigation = () => (
   <div className="navigation">
     <Navbar className="justify-content-between p-0">
       <div className="logo">
-        <img src={Logo} alt="Logo" />
+        <Link to="/">
+          <img src={Logo} alt="Logo" />
+        </Link>
       </div>
       <div className="nav-item">
         <span>

@@ -1,0 +1,11 @@
+@import "../../pages/default.styles.scss";
+
+.appintro__wrapper {
+  background: url("./assets/intro-bg.png");
+  width: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 200px;
+}

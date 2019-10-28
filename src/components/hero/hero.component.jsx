@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Navigation from "../navigation/navigation.component";
 import Search from "../search/search.component";
 

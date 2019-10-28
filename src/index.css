@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "Axiforma";
-  src: local("Axiforma"), local("Axiforma"),
-    url("../src/fonts/Axiforma-Black.ttf") format("truetype");
+  font-family: "Axiforma-Regular";
+  src: local("Axiforma-Regular"), local("Axiforma-Regular"),
+    url("../src/fonts/Axiforma-Regular.ttf") format("truetype");
 }
 
 @font-face {
