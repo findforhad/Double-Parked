@@ -34,6 +34,12 @@
     url("../src/fonts/Axiforma-Light.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Axiforma-Thin";
+  src: local("Axiforma-Thin"), local("Axiforma-Thin"),
+    url("../src/fonts/Axiforma-Thin.ttf") format("truetype");
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -49,4 +55,22 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px white inset !important;
   box-shadow: 0 0 0 30px white inset !important;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+button:focus {
+  outline: none;
+  outline: 0px !important;
 }

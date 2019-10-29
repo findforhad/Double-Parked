@@ -1,0 +1,59 @@
+@import "../../pages/default.styles.scss";
+
+.hld__wrapper {
+  padding: 10px 0;
+
+  img {
+    height: 600px;
+  }
+
+  h4 {
+    font-family: "Axiforma-Regular";
+    text-align: left;
+    color: $text-color;
+  }
+
+  p {
+    font-family: "Axiforma-Light";
+    line-height: 1.647;
+    text-align: left;
+    color: $text-color;
+  }
+
+  .line {
+    background-color: $primary-color;
+    width: 105px;
+    height: 3px;
+    z-index: 181;
+    margin: 15px 0;
+  }
+
+  .girl__bottom {
+    background: $primary-color;
+    padding: 20px;
+    width: 60%;
+    position: relative;
+    left: 8%;
+    border-radius: 5px;
+    top: -50px;
+
+    p {
+      font-family: "Axiforma-Medium";
+      color: #ffffff;
+      margin: 0;
+      text-align: center;
+    }
+  }
+}
+
+// .Helping_Learner_Drivers {
+//     font-size: 28px;
+//     font-family: "Axiforma";
+//     color: rgb(45, 45, 45);
+//     line-height: 2;
+//     text-align: left;
+//     position: absolute;
+//     left: 387.937px;
+//     top: 2939.502px;
+//     z-index: 101;
+//   }

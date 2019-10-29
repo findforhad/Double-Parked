@@ -1,0 +1,35 @@
+@import "../../pages/default.styles.scss";
+
+.footer__wrapper {
+  padding: 40px 0;
+  background: #f6f9fc;
+  border-top: 1px solid #cccccc;
+
+  ul li {
+    list-style: none;
+  }
+
+  ul li strong {
+    font-family: "Axiforma-SemiBold";
+    color: $text-color;
+  }
+
+  ul li a {
+    font-family: "Axiforma-Thin";
+    color: $text-color;
+  }
+
+  .copyright__wrapper {
+    display: flex;
+    justify-content: space-around;
+
+    p {
+      font-family: "Axiforma-Thin";
+      color: $text-color;
+    }
+
+    img {
+      height: 30px;
+    }
+  }
+}

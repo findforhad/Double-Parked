@@ -4,6 +4,8 @@ import { Container, Row } from "react-bootstrap";
 import Hero from "../../components/hero/hero.component";
 import Card from "../../components/card/card.component";
 import AppIntro from "../../components/appintro/appintro.component";
+import HLD from "../../components/HLD/hld.component";
+import Footer from "../../components/footer/footer.component";
 
 import "./home.styles.scss";
 
@@ -34,6 +36,8 @@ const Home = () => (
       </Row>
     </Container>
     <AppIntro />
+    <HLD />
+    <Footer />
   </React.Fragment>
 );
 
