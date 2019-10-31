@@ -1,0 +1,53 @@
+@import "../default.styles.scss";
+
+.signup__wrapper {
+  .signup__header__wrapper {
+    background: url("./assets/bg-top.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    hr {
+      border-top: 1px solid #ffffff82;
+    }
+
+    h2 {
+      color: #ffff;
+      font-family: "Axiforma-Bold";
+      padding-bottom: 30px;
+    }
+  }
+
+  .layout__wrapper {
+    padding: 30px 0;
+    margin-bottom: 20px;
+
+    .nav.nav-tabs {
+      margin-bottom: 20px;
+    }
+
+    .nav-tabs {
+      border-bottom: 1px solid #009afc;
+
+      .nav-item {
+        border: 1px solid #009afc;
+        width: 250px;
+      }
+      .active {
+        background-color: #009afc !important;
+        font-family: cursive;
+        color: #ffff !important;
+        border: none !important;
+        font-family: "Axiforma-Medium";
+        border-radius: 0px;
+      }
+      .nav-link {
+        border: none;
+        border-top-left-radius: none;
+        border-top-right-radius: none;
+        display: block;
+        padding: 0.7rem 1.5rem;
+      }
+    }
+  }
+}

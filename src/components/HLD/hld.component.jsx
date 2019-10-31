@@ -24,49 +24,60 @@ const HLD = () => (
           <TextCard
             span="Instant Access"
             para="to available instructors in your local area"
+            sign={require("./assets/sign.png")}
+            imgHeight="16px"
           />
           <TextCard
             span="Secure Payments"
             para="made online so you never have to worry about withdrawing cash"
+            sign={require("./assets/sign.png")}
           />
           <TextCard
             span="Multiple Bookings:"
             para="perfect for when your test is getting closer"
+            sign={require("./assets/sign.png")}
+            imgHeight="16px"
           />
 
           <TextCard
             span="Speak Directly"
             para="to your instructor when their current lesson has finished"
+            sign={require("./assets/sign.png")}
+            imgHeight="16px"
           />
           <TextCard
             span="Proven Star Rating System"
             para="allows you to find the very best of the best"
+            sign={require("./assets/sign.png")}
+            imgHeight="16px"
           />
           <TextCard
             span="Pass Faster"
             para="than with any other driving platform"
+            sign={require("./assets/sign.png")}
+            imgHeight="16px"
           />
           <TextCard
             span="Search Offers"
             para="such as bulk discounts and introductory sessions to find the deal for you"
+            sign={require("./assets/sign.png")}
+            imgHeight="16px"
           />
           <p>
             With everything you need available in an instant in the palm of your
             hand, you’ll have more time and energy than ever before to give
             every lesson your best and pass first time!{" "}
           </p>
-          <Button to="/" bg="#80d047">
+          <Button to="/" bg="#80d047" color="#ffff">
             Pass Faster, Pass First Time
           </Button>
         </Fade>
       </Col>
-      <Col md={6}>
-        <Fade right>
-          <img alt="hldGirl" src={require("./assets/girl.png")} />
-          <div className="girl__bottom">
-            <p>Know your instructor before taking a lesson ! </p>
-          </div>
-        </Fade>
+      <Col md={6} className="hld__image__sec">
+        <img alt="hldGirl" src={require("./assets/girl.png")} />
+        <div className="girl__bottom">
+          <p>Know your instructor before taking a lesson ! </p>
+        </div>
       </Col>
     </Row>
   </Container>

@@ -1,10 +1,12 @@
 @import "../../pages/default.styles.scss";
 
 .hld__wrapper {
-  padding: 10px 0;
+  padding: 100px 0;
 
-  img {
-    height: 600px;
+  .hld__image__sec {
+    img {
+      height: 600px;
+    }
   }
 
   h4 {

@@ -1,0 +1,49 @@
+@import "../../pages/default.styles.scss";
+
+.promise__wrapper {
+  margin: 50px 0;
+
+  .promise__container {
+    padding: 40px 0px 0px 0px;
+    margin: 20px 0;
+    box-shadow: 2px 0px 14px -5px #555;
+    border-radius: 4px;
+    height: 355px;
+
+    img {
+      position: relative;
+      top: -130px;
+    }
+
+    h4 {
+      font-family: "Axiforma-Regular";
+      text-align: left;
+      color: $text-color;
+    }
+
+    p {
+      font-family: "Axiforma-Light";
+      line-height: 1.647;
+      text-align: left;
+      color: $text-color;
+    }
+
+    span {
+      position: absolute;
+      background: #309afb;
+      padding: 15px;
+      top: -70px;
+      left: 170px;
+      color: #fff;
+      font-family: "Axiforma-Medium";
+    }
+
+    .line {
+      background-color: $primary-color;
+      width: 105px;
+      height: 3px;
+      z-index: 181;
+      margin: 15px 0;
+    }
+  }
+}

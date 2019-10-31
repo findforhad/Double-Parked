@@ -1,7 +1,8 @@
 @import "../../pages/default.styles.scss";
 
 .footer__wrapper {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 20px;
   background: #f6f9fc;
   border-top: 1px solid #cccccc;
 
@@ -17,13 +18,11 @@
   ul li a {
     font-family: "Axiforma-Thin";
     color: $text-color;
+    font-size: 14px;
   }
 
   .copyright__wrapper {
-    display: flex;
-    justify-content: space-around;
-
-    p {
+    small {
       font-family: "Axiforma-Thin";
       color: $text-color;
     }

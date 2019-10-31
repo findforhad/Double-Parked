@@ -5,7 +5,7 @@ import Hero from "../../components/hero/hero.component";
 import Card from "../../components/card/card.component";
 import AppIntro from "../../components/appintro/appintro.component";
 import HLD from "../../components/HLD/hld.component";
-import Footer from "../../components/footer/footer.component";
+import Promise from "../../components/promise/promise.components";
 
 import "./home.styles.scss";
 
@@ -37,7 +37,7 @@ const Home = () => (
     </Container>
     <AppIntro />
     <HLD />
-    <Footer />
+    <Promise />
   </React.Fragment>
 );
 

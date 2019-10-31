@@ -3,12 +3,16 @@
 
   label {
     img {
-      height: 16px;
       padding-right: 15px;
+    }
+    .add_def_height {
+      height: 16px;
     }
   }
 
   p {
+    font-size: 15px;
+    color: #525252;
     span {
       font-family: "Axiforma-SemiBold";
     }

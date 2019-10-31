@@ -1,0 +1,80 @@
+@import "../default.styles.scss";
+
+.how_it_work__wrapper {
+  .how_it_work__header__wrapper {
+    background: url("./assets/bg-top.png");
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    hr {
+      border-top: 1px solid #ffffff82;
+    }
+
+    h2 {
+      color: #ffff;
+      font-family: "Axiforma-Bold";
+      padding-bottom: 30px;
+    }
+  }
+
+  .layout__wrapper {
+    background: url("./assets/for-instructors.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 90px;
+    padding-top: 45px;
+
+    h4 {
+      font-family: "Axiforma-Medium";
+      color: $text-color;
+    }
+    h5 {
+      font-family: "Axiforma-Regular";
+      color: $text-color;
+    }
+    p {
+      font-family: "Axiforma-Light";
+      line-height: $default-line-hight;
+      color: #525252;
+    }
+  }
+
+  .second__layout__wrapper {
+    background: url("./assets/2ndbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+
+    .step__others {
+      position: relative;
+      top: 200px;
+
+      p {
+        font-family: "Axiforma-Light";
+        line-height: $default-line-hight;
+        color: #525252;
+      }
+    }
+  }
+
+  .thired__layout__wrapper {
+    background: url("./assets/3rdsecbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+
+    h4 {
+      font-family: "Axiforma-Medium";
+      color: $text-color;
+    }
+    h5 {
+      font-family: "Axiforma-Regular";
+      color: $text-color;
+    }
+    p {
+      font-family: "Axiforma-Light";
+      line-height: $default-line-hight;
+    }
+  }
+}

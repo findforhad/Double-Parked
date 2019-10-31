@@ -7,7 +7,12 @@ const Button = props => (
     className="main-button"
     style={{ backgroundColor: `${props.bg ? props.bg : "#ffffff"}` }}
   >
-    <Link to={props.to}>{props.children}</Link>
+    <Link
+      to={props.to}
+      style={{ color: props.color ? props.color : "#113077" }}
+    >
+      {props.children}
+    </Link>
   </button>
 );
 

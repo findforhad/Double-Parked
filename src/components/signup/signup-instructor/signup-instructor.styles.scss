@@ -1,0 +1,47 @@
+.signup__instructor__wrapper {
+  .input-item {
+    padding: 10px 0;
+
+    strong {
+      font-family: "Axiforma-SemiBold";
+
+      span {
+        color: #309afb;
+      }
+    }
+    .error__true {
+      border: 1px solid #ff000069;
+    }
+
+    input {
+      width: 100%;
+      font-family: "Axiforma-Light";
+      padding: 8px 15px;
+      border: 1px solid #cad7e4;
+      border-radius: 4px;
+      font-size: 14px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .term_acc {
+    font-family: "Axiforma-Light";
+    font-size: 14px;
+    padding: 15px 0;
+  }
+
+  button {
+    background: #80d047;
+    font-family: "Axiforma-SemiBold";
+    text-align: center;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 30px;
+    color: #ffffff;
+    box-shadow: 0px 0px 8px 0px #00000063;
+    margin-bottom: 30px;
+  }
+}

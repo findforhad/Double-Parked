@@ -30,47 +30,58 @@ const Footer = () => (
         <Col md={2}>
           <ul>
             <li>
-              <strong>General</strong>
+              <strong>Your Doubleparked</strong>
             </li>
             <li>
-              <Link to="/aboutus">About Us</Link>
+              <Link to="/aboutus">Driving instructor</Link>
             </li>
             <li>
-              <Link to="/contactus">Contact Us</Link>
+              <Link to="/contactus">Leaner</Link>
             </li>
             <li>
-              <Link to="/careers">Careers</Link>
-            </li>
-          </ul>
-        </Col>
-        <Col md={2}>
-          <ul>
-            <li>
-              <strong>General</strong>
+              <Link to="/careers">List your busines</Link>
             </li>
             <li>
-              <Link to="/aboutus">About Us</Link>
-            </li>
-            <li>
-              <Link to="/contactus">Contact Us</Link>
-            </li>
-            <li>
-              <Link to="/careers">Careers</Link>
+              <Link to="/referrals">Referrals</Link>
             </li>
           </ul>
         </Col>
         <Col md={3}>
+          <ul>
+            <li>
+              <strong>Terms and condition</strong>
+            </li>
+            <li>
+              <Link to="/aboutus">Terms or use</Link>
+            </li>
+            <li>
+              <Link to="/contactus">Policies</Link>
+            </li>
+            <li>
+              <Link to="/careers">Privacy policy</Link>
+            </li>
+            <li>
+              <Link to="/careers">FAQ</Link>
+            </li>
+          </ul>
+        </Col>
+        <Col md={2}>
           <img alt="Award" src={require("./award.png")} />
         </Col>
       </Row>
       <hr />
       <div className="copyright__wrapper">
-        <p>
-          © 2018 Pronto etech Services is trading as Doubleparked, All Rights
-          are Reserved
-        </p>
-
-        <img alt="Payment Methods" src={require("./methods.png")} />
+        <Row>
+          <Col>
+            <small>
+              © 2018 Pronto etech Services is trading as Doubleparked, All
+              Rights are Reserved
+            </small>
+          </Col>
+          <Col style={{ textAlign: "right" }}>
+            <img alt="Payment Methods" src={require("./methods.png")} />
+          </Col>
+        </Row>
       </div>
     </Container>
   </div>
