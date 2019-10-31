@@ -63,21 +63,29 @@ const HLD = () => (
             sign={require("./assets/sign.png")}
             imgHeight="16px"
           />
-          <p>
-            With everything you need available in an instant in the palm of your
-            hand, you’ll have more time and energy than ever before to give
-            every lesson your best and pass first time!{" "}
-          </p>
-          <Button to="/" bg="#80d047" color="#ffff">
-            Pass Faster, Pass First Time
-          </Button>
         </Fade>
       </Col>
       <Col md={6} className="hld__image__sec">
-        <img alt="hldGirl" src={require("./assets/girl.png")} />
+        <img
+          alt="hldGirl"
+          src={require("./assets/girl.png")}
+          className="img-fluid"
+        />
         <div className="girl__bottom">
           <p>Know your instructor before taking a lesson ! </p>
         </div>
+      </Col>
+    </Row>
+    <Row>
+      <Col md={8} sm={12} col>
+        <p>
+          With everything you need available in an instant in the palm of your
+          hand, you’ll have more time and energy than ever before to give every
+          lesson your best and pass first time!{" "}
+        </p>
+        <Button to="/" bg="#80d047" color="#ffff">
+          Pass Faster, Pass First Time
+        </Button>
       </Col>
     </Row>
   </Container>

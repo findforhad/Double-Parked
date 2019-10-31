@@ -1,13 +1,14 @@
 @import "../../pages/default.styles.scss";
 
 .appintro__wrapper {
-  background: url("./assets/intro-bg.png");
-  padding: 200px;
-  position: relative;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background: url("./assets/intro-bg.png");
+  // padding: 200px;
+  // position: relative;
+  // background-position: bottom;
+  // background-repeat: no-repeat;
+  // background-size: cover;
   // top: -115px;
+  margin: 40px;
 
   .intro__text__one {
     text-align: end;
@@ -57,5 +58,11 @@
       top: 60px;
       left: 42%;
     }
+  }
+}
+
+@media (max-width: 858px) {
+  .appintro__wrapper {
+    padding: 0;
   }
 }

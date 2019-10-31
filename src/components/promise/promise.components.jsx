@@ -1,19 +1,26 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Shake from "react-reveal/Shake";
+import { Slide } from "react-reveal";
 
 import "./promise.styles.scss";
 
 const Promise = () => (
   <div className="promise__wrapper">
     <Container>
-      <Shake>
-        <div className="promise__container">
-          <Row className="justify-content-md-center">
-            <Col md={{ offset: 1, span: 4 }}>
-              <img alt="Phone" src={require("./assets/phone.png")} />
-            </Col>
-            <Col md={6}>
+      <div className="promise__container">
+        <Row className="justify-content-md-center ">
+          <Col md={{ offset: 1, span: 4 }} className="image-res">
+            <Slide bottom>
+              <img
+                alt="Phone"
+                src={require("./assets/phone.png")}
+                className="img-fluid"
+              />
+              <span>A Name You Can Trust</span>
+            </Slide>
+          </Col>
+          <Col md={6}>
+            <div className="promise__text__wrapper">
               <span>A Name You Can Trust</span>
               <h4>The DoubleParked Promise</h4>
               <div className="line"></div>
@@ -25,10 +32,10 @@ const Promise = () => (
                 covering everything from scheduling to payment we make passing
                 first time quicker and easier for everyone!
               </p>
-            </Col>
-          </Row>
-        </div>
-      </Shake>
+            </div>
+          </Col>
+        </Row>
+      </div>
     </Container>
   </div>
 );

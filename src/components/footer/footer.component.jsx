@@ -9,7 +9,12 @@ const Footer = () => (
     <Container>
       <Row>
         <Col md={3}>
-          <img alt="Logo" src={require("./logo.svg")} width="200px" />
+          <img
+            alt="Logo"
+            src={require("./logo.svg")}
+            width="200px"
+            className="img-fluid"
+          />
         </Col>
         <Col md={2}>
           <ul>
@@ -72,14 +77,18 @@ const Footer = () => (
       <hr />
       <div className="copyright__wrapper">
         <Row>
-          <Col>
+          <Col md={8}>
             <small>
               © 2018 Pronto etech Services is trading as Doubleparked, All
               Rights are Reserved
             </small>
           </Col>
-          <Col style={{ textAlign: "right" }}>
-            <img alt="Payment Methods" src={require("./methods.png")} />
+          <Col md={4}>
+            <img
+              alt="Payment Methods"
+              src={require("./methods.png")}
+              className="img-fluid"
+            />
           </Col>
         </Row>
       </div>

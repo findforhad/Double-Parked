@@ -8,11 +8,15 @@
     margin: 20px 0;
     box-shadow: 2px 0px 14px -5px #555;
     border-radius: 4px;
-    height: 355px;
+
+    .image-res {
+      span {
+        display: none;
+      }
+    }
 
     img {
       position: relative;
-      top: -130px;
     }
 
     h4 {
@@ -44,6 +48,47 @@
       height: 3px;
       z-index: 181;
       margin: 15px 0;
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .promise__wrapper {
+    margin: 50px 0;
+
+    .promise__container {
+      .image-res {
+        text-align: center;
+
+        span {
+          display: block;
+          left: 0;
+          position: static;
+          margin-bottom: 10px;
+        }
+      }
+
+      .promise__text__wrapper {
+        text-align: center;
+        padding: 20px;
+      }
+      span {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .promise__wrapper {
+    .promise__container {
+      .image-res {
+        span {
+          padding: 8px 6px;
+          top: -60px;
+          left: 126px;
+        }
+      }
     }
   }
 }

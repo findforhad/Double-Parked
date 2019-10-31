@@ -29,7 +29,7 @@ class Search extends React.Component {
   render() {
     return (
       <Row>
-        <Col md={5}>
+        <Col md={7} sm={12}>
           <div className="search-container">
             <h1>Book a driving lesson in 2 minutes!</h1>
             <p>Search, Book & Pay Online </p>

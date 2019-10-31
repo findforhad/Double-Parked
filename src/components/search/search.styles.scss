@@ -31,6 +31,8 @@
         font-family: "Axiforma-Light";
         color: #7c7c7c;
         top: 2px;
+        background: transparent;
+        width: 80%;
 
         &:focus {
           outline: none;
@@ -56,6 +58,24 @@
       &:hover {
         background: #72b741;
         transition: 0.4s ease-out;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) {
+  .search-container {
+    // text-align: center;
+    h1 {
+      font-family: "Axiforma-Bold";
+      color: #ffffff;
+      // font-size: 25px;
+    }
+
+    .search__wrapper {
+      .search__logo {
+        padding: 5px 8px;
+        width: 80%;
       }
     }
   }
