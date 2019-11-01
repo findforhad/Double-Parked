@@ -1,0 +1,135 @@
+.individual__blog__wrapper {
+  .blog__page_wrapper {
+    margin: 40px 0;
+
+    .article__header {
+      position: relative;
+
+      .article__title {
+        position: absolute;
+        background: #00000096;
+        top: 80%;
+        color: #fff;
+        padding: 30px 0;
+        text-align: center;
+        width: 100%;
+
+        h2 {
+          font-family: "Axiforma-Bold";
+        }
+      }
+    }
+
+    .author-sec {
+      font-family: "Axiforma-Light";
+      color: #7c7c7c;
+      margin: 20px 0;
+
+      strong {
+        font-family: "Axiforma-SemiBold";
+        color: #009afc;
+      }
+    }
+
+    p {
+      font-family: "Axiforma-Thin";
+      line-height: 1.647;
+    }
+
+    .extra_text__section {
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+      h4 {
+        font-family: "Axiforma-Medium";
+      }
+
+      p {
+        line-height: 1.647;
+
+        b {
+          color: #009afc;
+        }
+      }
+
+      ul {
+        list-style: none;
+        margin-bottom: 0;
+
+        li {
+          label {
+            font-family: "Axiforma-Thin";
+            line-height: 1.647;
+            img {
+              padding-right: 10px;
+              position: relative;
+              top: -1px;
+            }
+          }
+        }
+      }
+    }
+
+    .comment__area {
+      margin-bottom: 60px;
+
+      h3 {
+        font-family: "Axiforma-Regular";
+      }
+      .input-item {
+        padding: 10px 0;
+
+        strong {
+          font-family: "Axiforma-SemiBold";
+        }
+
+        .error__true {
+          border: 1px solid #ff000069;
+        }
+
+        input {
+          width: 100%;
+          font-family: "Axiforma-Light";
+          padding: 8px 14px;
+          border: 1px solid #cad7e4;
+          border-radius: 4px;
+          font-size: 14px;
+
+          &:focus {
+            outline: none;
+          }
+        }
+        textarea {
+          width: 100%;
+          font-family: "Axiforma-Light";
+          padding: 8px 14px;
+          border: 1px solid #cad7e4;
+          border-radius: 4px;
+          font-size: 14px;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+
+      button {
+        background: #80d047;
+        font-family: "Axiforma-SemiBold";
+        text-align: center;
+        box-shadow: 0px 0px 8px 0px #00000063;
+        border: none;
+        padding: 10px 32px;
+        border-radius: 30px;
+        color: #ffffff;
+        float: right;
+      }
+    }
+    .more__blogs {
+      h3 {
+        font-family: "Axiforma-Regular";
+        color: #2d2d2d;
+      }
+    }
+  }
+}

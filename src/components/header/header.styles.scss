@@ -1,0 +1,16 @@
+.header__wrapper {
+  background: url("./assets/bg-top.png");
+  background-position: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  hr {
+    border-top: 1px solid #ffffff82;
+  }
+
+  h2 {
+    color: #ffff;
+    font-family: "Axiforma-Bold";
+    padding-bottom: 30px;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Nav } from "react-bootstrap";
-import Navigation from "../../components/navigation/navigation.component";
+import Header from "../../components/header/header.component";
 
 import SignupInstructor from "../../components/signup/signup-instructor/signup-instructor.component";
 import SignupLearner from "../../components/signup/signup-learner/signup-learner.component";
@@ -18,15 +18,7 @@ class SignUp extends React.Component {
     const { defaultTab } = this.state;
     return (
       <div className="signup__wrapper">
-        <div className="signup__header__wrapper">
-          <Container>
-            <Navigation />
-          </Container>
-          <hr />
-          <Container>
-            <h2>Sign Up Page</h2>
-          </Container>
-        </div>
+        <Header pageTitle="Sign Up Page" />
         <div className="layout__wrapper">
           <Container>
             <Nav variant="tabs" defaultActiveKey="/home">

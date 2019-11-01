@@ -3,22 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Fade } from "react-reveal";
 import Pulse from "react-reveal/Pulse";
 
-import Navigation from "../../components/navigation/navigation.component";
+import Header from "../../components/header/header.component";
 import TextCard from "../../components/HLD/text-card/text-card.component";
 
 import "./how-it-work.styles.scss";
 
 const HowItWork = () => (
   <div className="how_it_work__wrapper">
-    <div className="how_it_work__header__wrapper">
-      <Container>
-        <Navigation />
-      </Container>
-      <hr />
-      <Container>
-        <h2>Driving Instructors</h2>
-      </Container>
-    </div>
+    <Header pageTitle="How It Works" />
     <div className="layout__wrapper">
       <Container>
         <Row>

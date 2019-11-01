@@ -23,6 +23,13 @@ const Navigation = () => (
             <Link to="/how-it-works">How it works</Link>
           </li>
           <li>
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link to="/driving-instructor">Driving Instructor</Link>
+          </li>
+
+          <li>
             <Link to="/signui-in" className="signin__btn">
               Sign in
             </Link>

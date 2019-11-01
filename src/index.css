@@ -76,3 +76,6 @@ button:focus {
   outline: none;
   outline: 0px !important;
 }
+.cmb {
+  margin-bottom: 0.3rem;
+}

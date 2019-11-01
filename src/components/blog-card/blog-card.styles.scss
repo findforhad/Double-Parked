@@ -1,0 +1,34 @@
+.blog__card__wrapper {
+  margin-bottom: 15px;
+  .text__wrapper {
+    padding: 10px 6px;
+
+    h6 {
+      font-family: "Axiforma-Bold";
+      line-height: 1.333;
+      font-size: 18px;
+
+      a {
+        color: #525252;
+      }
+    }
+    p {
+      font-family: "Axiforma-Light";
+      color: #525252;
+      line-height: 1.333;
+      font-size: 15px;
+      margin-bottom: 0.5rem;
+    }
+
+    .author__info {
+      display: flex;
+      justify-content: space-between;
+
+      small {
+        font-family: "Axiforma-Light";
+        color: #525252;
+        font-size: 13px;
+      }
+    }
+  }
+}
