@@ -1,0 +1,19 @@
+.sec__block {
+  padding: 40px 0;
+  background: url("../../assets/hdi.png") 50% 100%;
+  margin-bottom: 40px;
+  background-repeat: no-repeat;
+
+  .helping__driving__instructors {
+    h5 {
+      font-family: "Axiforma-Regular";
+      color: rgb(45, 45, 45);
+      line-height: 1.417;
+    }
+    p {
+      font-family: "Axiforma-Light";
+      color: rgb(45, 45, 45);
+      line-height: 1.417;
+    }
+  }
+}

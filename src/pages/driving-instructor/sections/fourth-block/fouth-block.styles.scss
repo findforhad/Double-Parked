@@ -1,0 +1,48 @@
+.fouth__block {
+  padding: 60px 0;
+  background: #f6f9fc;
+  clip-path: polygon(0 0, 0 100%, 100% 85%, 100% 15%);
+
+  .fouth__block__container {
+    background: url("../../assets/fourb-bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    img {
+      padding: 30px;
+    }
+
+    h4 {
+      margin-top: 45px;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 0;
+
+      li {
+        label {
+          display: -webkit-inline-box;
+          margin-bottom: 1rem;
+
+          .blue_dot {
+            margin-right: 10px;
+            position: relative;
+            top: 6px;
+            border-radius: 100%;
+            background-color: #20a7fc;
+            width: 10px;
+            height: 11px;
+          }
+
+          span {
+            font-family: "Axiforma-Regular";
+            line-height: 1.647;
+            color: #2d2d2d;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}

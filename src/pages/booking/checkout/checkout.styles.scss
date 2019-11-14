@@ -1,0 +1,54 @@
+@import "../../default.styles.scss";
+
+.chekout {
+  .checkout__wrapper {
+    padding: 30px 0;
+
+    hr {
+      margin-top: 0;
+      margin-bottom: 0.4rem;
+    }
+
+    .input-item {
+      padding: 10px 0;
+
+      strong {
+        font-family: "Axiforma-SemiBold";
+
+        span {
+          color: #309afb;
+        }
+      }
+      .error__true {
+        border: 1px solid #ff000069;
+      }
+
+      input {
+        width: 100%;
+        font-family: "Axiforma-Light";
+        padding: 8px 15px;
+        border: 1px solid #cad7e4;
+        border-radius: 4px;
+        font-size: 14px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+
+    h4 {
+      font-family: "Axiforma-Regular";
+      text-align: left;
+      color: $text-color;
+    }
+
+    p {
+      font-family: "Axiforma-Light";
+      line-height: 1.647;
+      text-align: left;
+      margin-bottom: 0.5rem;
+      color: $text-color;
+    }
+  }
+}

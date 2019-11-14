@@ -16,7 +16,7 @@ import SearchInstructor from "./assets/search-instructor.svg";
 const Home = () => (
   <React.Fragment>
     <Hero />
-    <Container>
+    <Container className="home__card__block">
       <Row>
         <Card
           image={PostCode}
@@ -42,3 +42,14 @@ const Home = () => (
 );
 
 export default Home;
+// .Rounded_Rectangle_4_copy_4 {
+//   border-radius: 6px;
+//   background-color: rgb(255, 255, 255);
+//   box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.07);
+//   position: absolute;
+//   left: 1324px;
+//   top: 900px;
+//   width: 360px;
+//   height: 500px;
+//   z-index: 157;
+// }

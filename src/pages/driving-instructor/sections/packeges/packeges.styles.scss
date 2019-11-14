@@ -1,0 +1,58 @@
+.our__packeges {
+  padding: 35px 0;
+
+  .packeges {
+    padding: 20px 0;
+
+    h6 {
+      font-family: "Axiforma-Bold";
+      color: #2d2d2d;
+    }
+    span {
+      font-family: "Axiforma-Regular";
+      color: #2d2d2d;
+      font-size: 15px;
+    }
+
+    .packege__list {
+      margin: 20px 0;
+      border-radius: 5px;
+
+      .packege__list__item {
+        display: flex;
+        padding: 25px 20px;
+        border-top: 6px solid #3da7fb;
+        border-radius: 6px;
+        box-shadow: 0px 0px 20px 5px #00000014;
+        margin-bottom: 30px;
+
+        .card_item__image {
+          width: 26%;
+        }
+
+        .packege__text__section {
+          p {
+            font-size: 14px;
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+  }
+  .did_u__know {
+    background: url("../../assets/fb-bg.png");
+    padding: 15px 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 1rem;
+
+    p {
+      font-family: "Axiforma-Light";
+      color: #ffffff;
+    }
+    h5 {
+      font-family: "Axiforma-Bold";
+      color: #ffffff;
+    }
+  }
+}

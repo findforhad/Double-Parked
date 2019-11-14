@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Fade } from "react-reveal";
 import Pulse from "react-reveal/Pulse";
 
-import Header from "../../components/header/header.component";
-import TextCard from "../../components/HLD/text-card/text-card.component";
+import Header from "../../../components/header/header.component";
+import TextCard from "../../../components/HLD/text-card/text-card.component";
 
 import "./how-it-work.styles.scss";
 
@@ -30,19 +30,19 @@ const HowItWork = () => (
             <Fade left>
               <TextCard
                 para="Transfer your diary by blocking out existing bookings, and then simply add new in-person bookings from your diary with the click of a button."
-                sign={require("./assets/steps/step1.png")}
+                sign={require("../assets/steps/step1.png")}
                 imgHeight="45px"
                 pad="5px 0"
               />
               <TextCard
                 para="Set your start and finish times, and decide how much time you want in between lessons."
-                sign={require("./assets/steps/step2.png")}
+                sign={require("../assets/steps/step2.png")}
                 imgHeight="45px"
                 pad="5px 0"
               />
               <TextCard
                 para="We send you a notification when a learner books a lesson through us so that you’re never double booked."
-                sign={require("./assets/steps/step3.png")}
+                sign={require("../assets/steps/step3.png")}
                 imgHeight="45px"
                 pad="5px 0"
               />
@@ -59,13 +59,13 @@ const HowItWork = () => (
               <Fade right>
                 <TextCard
                   para="You check you’re happy, and block it out in your diary so that you know exactly what’s going on ."
-                  sign={require("./assets/steps/step4.png")}
+                  sign={require("../assets/steps/step4.png")}
                   imgHeight="45px"
                   pad="5px 0"
                 />
                 <TextCard
                   para="Payment is already secured, so you’ll never lose out again."
-                  sign={require("./assets/steps/step5.png")}
+                  sign={require("../assets/steps/step5.png")}
                   imgHeight="45px"
                   pad="5px 0"
                 />
@@ -91,26 +91,26 @@ const HowItWork = () => (
             <Fade left>
               <TextCard
                 para="Instant notifications when a learner books a lesson so that you’ll never find yourself double booked."
-                sign={require("./assets/steps/step1.png")}
+                sign={require("../assets/steps/step1.png")}
                 imgHeight="45px"
                 pad="5px 0"
               />
 
               <TextCard
                 para="Change your availability and lesson times on any given day with the click of a button so your dashboard and your diary work together in perfect harmony."
-                sign={require("./assets/steps/step2.png")}
+                sign={require("../assets/steps/step2.png")}
                 imgHeight="45px"
                 pad="5px 0"
               />
               <TextCard
                 para="You decide how long you need between lessons, all it takes is a click."
-                sign={require("./assets/steps/step3.png")}
+                sign={require("../assets/steps/step3.png")}
                 imgHeight="45px"
                 pad="5px 0"
               />
               <TextCard
                 para="Block bookings, holidays, and some much needed rest can easily be added to your calendar by disabling future spots."
-                sign={require("./assets/steps/step1.png")}
+                sign={require("../assets/steps/step1.png")}
                 imgHeight="45px"
                 pad="5px 0"
               />

@@ -1,0 +1,119 @@
+.booking__calender {
+  .booking__selection {
+    border-radius: 3px;
+    border: 1px solid #cad7e4;
+    .hint__text {
+      padding: 15px 20px;
+      h5 {
+        margin: 0;
+        font-family: "Axiforma-SemiBold";
+      }
+    }
+    .month__weeks {
+      display: flex;
+      justify-content: space-around;
+      background: #009afc;
+      color: #fff;
+      padding: 10px 0;
+      font-size: 20px;
+      p {
+        margin: 0;
+        cursor: pointer;
+        font-family: "Axiforma-Light";
+      }
+      span {
+        cursor: pointer;
+      }
+    }
+    .schedule__wrapper {
+      .schedule__week__wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 15px 0;
+
+        span {
+          margin: 0;
+          cursor: pointer;
+          font-family: "Axiforma-Bold";
+          color: #2d2d2d;
+        }
+      }
+      .schedule__weekday__wrapper {
+        display: flex;
+        justify-content: space-evenly;
+
+        span {
+          cursor: pointer;
+          font-family: "Axiforma-Light";
+          border: 1px solid #cad7e4;
+          padding: 10px 15px;
+          border-radius: 3px;
+        }
+        margin-bottom: 20px;
+
+        .active {
+          background: #309afb;
+          color: #fff;
+        }
+      }
+
+      .container__wrapper {
+        margin: 0 10px;
+        .schedule__time__wrapper {
+          display: flex;
+          justify-content: space-around;
+          border-bottom: 1px solid #cad7e4;
+
+          button {
+            font-family: "Axiforma-Bold";
+            border: none;
+            color: #80d047;
+            background: #ffffff;
+          }
+          span {
+            color: #525252;
+            font-family: "Axiforma-Medium";
+            font-size: 13px;
+            width: 100px;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+
+    table {
+      margin: 20px auto;
+      width: 90%;
+
+      thead {
+        text-align: center;
+        tr {
+          th {
+            p {
+              margin-bottom: 1rem;
+            }
+          }
+        }
+      }
+
+      tbody {
+        text-align: center;
+        tr {
+          td {
+            font-family: "Axiforma-Medium";
+
+            p {
+              margin-bottom: 1rem;
+              margin-top: 1rem;
+              // color: #fff;
+            }
+
+            .selected {
+              background: #009afc;
+            }
+          }
+        }
+      }
+    }
+  }
+}

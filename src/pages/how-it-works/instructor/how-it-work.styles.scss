@@ -1,8 +1,8 @@
-@import "../default.styles.scss";
+@import "../../default.styles.scss";
 
 .how_it_work__wrapper {
   .layout__wrapper {
-    background: url("./assets/for-instructors.png");
+    background: url("../assets/for-instructors.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 90px;
@@ -24,7 +24,7 @@
   }
 
   .second__layout__wrapper {
-    background: url("./assets/2ndbg.png");
+    background: url("../assets/2ndbg.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 550px;
@@ -42,7 +42,7 @@
   }
 
   .thired__layout__wrapper {
-    background: url("./assets/3rdsecbg.png");
+    background: url("../assets/3rdsecbg.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px 0;

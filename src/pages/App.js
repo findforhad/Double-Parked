@@ -4,10 +4,15 @@ import { Helmet } from "react-helmet";
 
 import Home from "./home/home.page";
 import SignUp from "./signup/signup.page";
-import HowItWork from "./how-it-work/how-it-work.page";
 import Blog from "./blog/blog.page";
 import IndividualBlog from "./blog/individual-blog/individual-blog.page";
 import DrivingInstructor from "./driving-instructor/driving-instructor.page";
+import LearnerDriver from "./learner-driver/learner-driver.page";
+import HowItWorkInstructor from "./how-it-works/instructor/how-it-work.page";
+import HowItWorkLearner from "./how-it-works/learner/how-it-work-learner.page";
+
+import Booking from "./booking/booking.page";
+import CheckoutPage from "./booking/checkout/checkout.page";
 
 import Footer from "../components/footer/footer.component";
 import "./default.styles.scss";
@@ -35,14 +40,26 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/signui-in" component={SignUp} />
-              <Route exact path="/how-it-works" component={HowItWork} />
               <Route exact path="/blog" component={Blog} />
               <Route exact path="/blog/:id" component={IndividualBlog} />
+              <Route exact path="/learner-driver" component={LearnerDriver} />
               <Route
                 exact
                 path="/driving-instructor"
                 component={DrivingInstructor}
               />
+              <Route
+                exact
+                path="/how-it-works-learners"
+                component={HowItWorkLearner}
+              />
+              <Route
+                exact
+                path="/how-it-works-instructor"
+                component={HowItWorkInstructor}
+              />
+              <Route exact path="/check-out" component={CheckoutPage} />
+              <Route exact path="/book-your-lession" component={Booking} />
             </Switch>
             <Footer />
           </React.Fragment>

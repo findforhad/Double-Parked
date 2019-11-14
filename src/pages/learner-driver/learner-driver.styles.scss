@@ -1,0 +1,25 @@
+.learner__driver__wrapper {
+  h5 {
+    font-family: "Axiforma-Regular";
+    color: rgb(45, 45, 45);
+    line-height: 1.417;
+  }
+  h6 {
+    font-family: "Axiforma-Semibold";
+    color: rgb(45, 45, 45);
+    line-height: 1.417;
+  }
+  p {
+    font-family: "Axiforma-Light";
+    color: rgb(45, 45, 45);
+    line-height: 1.417;
+  }
+
+  .block__three {
+    padding-top: 30px 0;
+    .last__block__text {
+      position: relative;
+      top: 40px;
+    }
+  }
+}

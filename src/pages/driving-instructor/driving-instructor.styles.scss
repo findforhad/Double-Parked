@@ -1,100 +1,17 @@
 .driving_instructor__wrapper {
-  .first__block {
-    margin: 40px 0;
-
-    h4 {
-      font-family: "Axiforma-Medium";
-      color: rgb(45, 45, 45);
-      line-height: 1.417;
-    }
-    h5 {
-      font-family: "Axiforma-Regular";
-      color: rgb(45, 45, 45);
-      line-height: 1.417;
-    }
-    p {
-      font-family: "Axiforma-Light";
-      color: rgb(45, 45, 45);
-      line-height: 1.417;
-    }
-    ul {
-      list-style: none;
-      margin-bottom: 0;
-
-      li {
-        label {
-          font-family: "Axiforma-Regular";
-          line-height: 1.647;
-          color: #2d2d2d;
-          img {
-            padding-right: 10px;
-            position: relative;
-            top: -1px;
-          }
-        }
-      }
-    }
-
-    .did_u__know {
-      position: relative;
-      bottom: 12rem;
-      background: url("./assets/fb-bg.png");
-      padding: 20px 0;
-      background-repeat: no-repeat;
-      background-size: contain;
-      margin-bottom: -8rem;
-
-      p {
-        font-family: "Axiforma-Light";
-        color: #ffffff;
-      }
-      h5 {
-        font-family: "Axiforma-Bold";
-        color: #ffffff;
-      }
-    }
+  h4 {
+    font-family: "Axiforma-Medium";
+    color: rgb(45, 45, 45);
+    line-height: 1.417;
   }
-
-  .sec__block {
-    padding: 40px 0;
-    background: url("./assets/hdi.png") 50% 100%;
-    margin-bottom: 40px;
-    background-repeat: no-repeat;
-
-    .helping__driving__instructors {
-      h5 {
-        font-family: "Axiforma-Regular";
-        color: rgb(45, 45, 45);
-        line-height: 1.417;
-      }
-      p {
-        font-family: "Axiforma-Light";
-        color: rgb(45, 45, 45);
-        line-height: 1.417;
-      }
-    }
+  h5 {
+    font-family: "Axiforma-Regular";
+    color: rgb(45, 45, 45);
+    line-height: 1.417;
   }
-
-  .thired__block {
-    background: url("./assets/thirdb-bg.png");
-    background-repeat: no-repeat;
-    background-position-y: center;
-    background-size: cover;
-    margin-bottom: 40px;
-
-    .thired_block__text {
-      padding: 205px 0;
-
-      h5 {
-        font-family: "Axiforma-Regular";
-        color: rgb(45, 45, 45);
-        line-height: 1.417;
-      }
-      p {
-        font-family: "Axiforma-Light";
-        color: rgb(45, 45, 45);
-        line-height: 1.417;
-      }
-    }
+  p {
+    font-family: "Axiforma-Light";
+    color: #525252;
+    line-height: 1.417;
   }
 }

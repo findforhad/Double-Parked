@@ -28,9 +28,9 @@ class Search extends React.Component {
 
   render() {
     return (
-      <Row>
-        <Col md={7} sm={12}>
-          <div className="search-container">
+      <div className="search-container">
+        <Row>
+          <Col md={7}>
             <h1>Book a driving lesson in 2 minutes!</h1>
             <p>Search, Book & Pay Online </p>
             <form onSubmit={this.handleSubmit}>
@@ -50,9 +50,9 @@ class Search extends React.Component {
                 </button>
               </div>
             </form>
-          </div>
-        </Col>
-      </Row>
+          </Col>
+        </Row>
+      </div>
     );
   }
 }

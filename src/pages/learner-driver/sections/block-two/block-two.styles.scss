@@ -1,0 +1,10 @@
+.new__approach {
+  background: #f6f9fc;
+  clip-path: polygon(0 0, 0 100%, 100% 80%, 100% 20%);
+  padding: 20px;
+
+  .approach_text_wrapper {
+    position: relative;
+    top: 20%;
+  }
+}

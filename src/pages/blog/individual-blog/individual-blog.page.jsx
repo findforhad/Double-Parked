@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import { isEmpty, isLength } from "validator";
+import { isEmpty } from "validator";
 
 import Header from "../../../components/header/header.component";
 import BlogCard from "../../../components/blog-card/blog-card.component";
@@ -238,7 +238,7 @@ class IndividualBlog extends React.Component {
                     </div>
                   </Col>
                 </Row>
-                <button type="submit">Login</button>
+                <button type="submit">Submit</button>
               </form>
             </div>
             <div className="more__blogs">

@@ -1,0 +1,21 @@
+.promise__block {
+  background: url("../../assets/promiseb-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 30px;
+  padding: 108px 0;
+
+  span {
+    background: #20a7fc;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px #20a7fc;
+    display: block;
+    width: 50%;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  h5 {
+    margin-top: 20px;
+  }
+}

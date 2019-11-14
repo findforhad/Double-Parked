@@ -18,7 +18,22 @@
     font-family: "Axiforma-Light";
     line-height: 1.647;
     text-align: left;
+    margin-bottom: 0.5rem;
     color: $text-color;
+  }
+
+  .button {
+    margin: 20px 0;
+    a {
+      background: #80d047;
+      font-family: "Axiforma-SemiBold";
+      text-align: center;
+      box-shadow: 0px 0px 8px 0px #00000063;
+      border: none;
+      border-radius: 30px;
+      color: #ffffff;
+      padding: 1rem 2rem;
+    }
   }
 
   .line {
@@ -64,6 +79,26 @@
         border-radius: 2px;
         top: 0;
         margin-bottom: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .hld__wrapper {
+    margin: 30px 0;
+    padding: 0;
+
+    .button {
+      a {
+        border-radius: 0px;
+      }
+    }
+    .hld__image__sec {
+      img {
+        display: none;
+      }
+      .girl__bottom {
+        display: none;
       }
     }
   }

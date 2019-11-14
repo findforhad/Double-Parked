@@ -1,0 +1,21 @@
+.sm__block {
+  margin: 40px 0;
+  .did_u__know__sm {
+    background: url("../../assets/fb-bg.png");
+    position: relative;
+    bottom: 14rem;
+    padding: 15px 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: -10rem;
+
+    p {
+      font-family: "Axiforma-Light";
+      color: #ffffff;
+    }
+    h5 {
+      font-family: "Axiforma-Bold";
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.saving__money__table {
+  margin: 10px 0;
+
+  tr {
+    td {
+      border-right: 1px solid #cad7e4;
+      text-align: center;
+
+      h6 {
+        font-family: "Axiforma-Bold";
+        text-align: left;
+        color: #2d2d2d;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .table-sm td,
+  .table-sm th {
+    padding: 0.8rem;
+    border-top: none;
+  }
+
+  .table td,
+  .table th {
+    vertical-align: initial;
+  }
+
+  .table-bordered td,
+  .table-bordered th {
+    text-align: center;
+  }
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(255, 255, 255);
+  }
+
+  #top-tr {
+    display: none;
+  }
+}

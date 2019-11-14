@@ -1,0 +1,79 @@
+.booking__status {
+  border-radius: 3px;
+  border: 1px solid #cad7e4;
+
+  .alert-red {
+    background: #ec0c0c2e;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px;
+    h6 {
+      font-family: "Axiforma-Light";
+      margin: 0;
+    }
+  }
+
+  .hint__text {
+    padding: 15px 20px;
+    h5 {
+      margin: 0;
+      font-family: "Axiforma-SemiBold";
+    }
+  }
+  hr {
+    margin-top: 0rem;
+  }
+  .lessons_cart {
+    padding: 5px 0;
+
+    .lesson_booked {
+      margin-bottom: 15px;
+      padding: 0 10px;
+      .lesson__info_text {
+        display: flex;
+        justify-content: space-between;
+
+        p {
+          font-family: "Axiforma-SemiBold";
+          padding: 0;
+          margin-bottom: 0.2rem;
+        }
+        .right {
+          display: flex;
+          width: 70px;
+          justify-content: space-between;
+
+          img {
+            cursor: pointer;
+            height: 22px;
+          }
+        }
+      }
+      .lesson__critaria__text {
+        p {
+          font-family: "Axiforma-Light";
+          padding: 0;
+          font-size: 15px;
+          margin-bottom: 0.2rem;
+        }
+      }
+    }
+  }
+  .booking__confirm__area {
+    padding: 0 10px;
+    h6 {
+      font-family: "Axiforma-Bold";
+    }
+    .service_fee {
+      display: flex;
+      justify-content: space-between;
+
+      p {
+        padding: 0;
+        font-family: "Axiforma-Light";
+        font-size: 15px;
+      }
+    }
+  }
+}

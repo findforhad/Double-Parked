@@ -11,3 +11,69 @@ $AxiformaSemiBold: "Axiforma-SemiBold";
 $primary-color: rgb(0, 154, 252);
 $text-color: rgb(82, 82, 82);
 $default-line-hight: 1.647;
+
+@font-face {
+  font-family: "Axiforma-Regular";
+  src: local("Axiforma-Regular"), local("Axiforma-Regular"),
+    url("../fonts/Axiforma-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Axiforma-Book";
+  src: local("Axiforma-Book"), local("Axiforma-Book"),
+    url("../fonts/Axiforma-Book.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Axiforma-Medium";
+  src: local("Axiforma-Medium"), local("Axiforma-Medium"),
+    url("../fonts/Axiforma-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Axiforma-SemiBold";
+  src: local("Axiforma-SemiBold"), local("Axiforma-SemiBold"),
+    url("../fonts/Axiforma-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Axiforma-Bold";
+  src: local("Axiforma-Bold"), local("Axiforma-Bold"),
+    url("../fonts/Axiforma-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Axiforma-Light";
+  src: local("Axiforma-Light"), local("Axiforma-Light"),
+    url("../fonts/Axiforma-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Axiforma-Thin";
+  src: local("Axiforma-Thin"), local("Axiforma-Thin"),
+    url("../fonts/Axiforma-Thin.ttf") format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  box-shadow: 0 0 0 30px white inset !important;
+  outline: none;
+  outline: 0px !important;
+}
+
+button:focus {
+  outline: none;
+  outline: 0px !important;
+}

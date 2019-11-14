@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Fade } from "react-reveal";
 import TextCard from "./text-card/text-card.component";
-import Button from "../button/button.component";
+import { Link } from "react-router-dom";
 
 import "./hld.styles.scss";
 
@@ -63,6 +63,14 @@ const HLD = () => (
             sign={require("./assets/sign.png")}
             imgHeight="16px"
           />
+          <p>
+            With everything you need available in an instant in the palm of your
+            hand, you’ll have more time and energy than ever before to give
+            every lesson your best and pass first time!{" "}
+          </p>
+          <div className="button">
+            <Link to="/">Pass Faster, Pass First Time</Link>
+          </div>
         </Fade>
       </Col>
       <Col md={6} className="hld__image__sec">
@@ -74,18 +82,6 @@ const HLD = () => (
         <div className="girl__bottom">
           <p>Know your instructor before taking a lesson ! </p>
         </div>
-      </Col>
-    </Row>
-    <Row>
-      <Col md={8} sm={12} col>
-        <p>
-          With everything you need available in an instant in the palm of your
-          hand, you’ll have more time and energy than ever before to give every
-          lesson your best and pass first time!{" "}
-        </p>
-        <Button to="/" bg="#80d047" color="#ffff">
-          Pass Faster, Pass First Time
-        </Button>
       </Col>
     </Row>
   </Container>
