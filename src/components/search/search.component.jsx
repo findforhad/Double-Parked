@@ -30,7 +30,7 @@ class Search extends React.Component {
     return (
       <div className="search-container">
         <Row>
-          <Col md={7}>
+          <Col md={10}>
             <h1>Book a driving lesson in 2 minutes!</h1>
             <p>Search, Book & Pay Online </p>
             <form onSubmit={this.handleSubmit}>
