@@ -7,7 +7,8 @@ const BookingStatus = ({
   selectedBooking,
   removeBooking,
   totalBookingPrice,
-  serviceFee
+  serviceFee,
+  totalCost
 }) => {
   return (
     <div className="booking__status">
@@ -48,6 +49,11 @@ const BookingStatus = ({
               <h6>£{serviceFee}</h6>
             </div>
           </div>
+          <div className="booking__btn__area">
+            <h6>Total Cost: </h6>
+            <h6>£{totalBookingPrice + totalCost}</h6>
+          </div>
+          <button>Book Now</button>
         </div>
       ) : (
         <div className="alert-red">
@@ -61,7 +67,8 @@ const BookingStatus = ({
 const mapStateToProps = state => ({
   selectedBooking: state.booking.selectedBooking,
   totalBookingPrice: state.booking.totalBookingPrice,
-  serviceFee: state.booking.serviceFee
+  serviceFee: state.booking.serviceFee,
+  totalCost: state.booking.totalCost
 });
 
 const mapDispatchToProps = dispatch => ({

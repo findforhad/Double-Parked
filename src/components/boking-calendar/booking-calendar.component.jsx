@@ -151,7 +151,7 @@ class BookingCalendar extends React.Component {
                       })
                     }
                   >
-                    Book
+                    <img src={require("./assets/icon.png")} alt="icon" /> Book
                   </button>
                 </div>
               ))}

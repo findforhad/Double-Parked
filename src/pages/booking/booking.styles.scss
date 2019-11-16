@@ -8,5 +8,17 @@
       border-radius: 3px;
       border: 1px solid #cad7e4;
     }
+
+    .lesson__provider {
+      display: flex;
+      margin-bottom: 20px;
+      .provider__logo {
+        margin-right: 20px;
+      }
+
+      h3 {
+        margin-top: 30px;
+      }
+    }
   }
 }

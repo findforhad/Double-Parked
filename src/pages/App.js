@@ -10,12 +10,16 @@ import DrivingInstructor from "./driving-instructor/driving-instructor.page";
 import LearnerDriver from "./learner-driver/learner-driver.page";
 import HowItWorkInstructor from "./how-it-works/instructor/how-it-work.page";
 import HowItWorkLearner from "./how-it-works/learner/how-it-work-learner.page";
+import PrivacyPolicy from "./privacy-policy/privacy-policy.page";
+import TermsUse from "./terms-use/terms-use.page";
 
 import Booking from "./booking/booking.page";
 import CheckoutPage from "./booking/checkout/checkout.page";
 
 import Footer from "../components/footer/footer.component";
 import "./default.styles.scss";
+
+import RemovalFooter from "../components/removal-footer/removal-footer.component";
 
 class App extends React.Component {
   render() {
@@ -60,8 +64,11 @@ class App extends React.Component {
               />
               <Route exact path="/check-out" component={CheckoutPage} />
               <Route exact path="/book-your-lession" component={Booking} />
+              <Route exact path="/privacy-policy" component={PrivacyPolicy} />
+              <Route exact path="/terms" component={TermsUse} />
             </Switch>
             <Footer />
+            <RemovalFooter />
           </React.Fragment>
         </Router>
       </div>

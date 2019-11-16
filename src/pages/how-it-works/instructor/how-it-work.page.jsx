@@ -24,7 +24,7 @@ const HowItWork = () => (
                 perfect harmony with your existing diary system, helps learners
                 find you with the click of a button, and even stops you losing
                 out due to those annoying last minute cancellations. Here’s how
-                it works:{" "}
+                it works:
               </p>
             </Pulse>
             <Fade left>

@@ -11,6 +11,16 @@ const Booking = () => (
     <Header pageTitle="Booking your lesson" />
     <Container>
       <div className="booking__wrapper">
+        <div className="lesson__provider">
+          <div className="provider__logo">
+            <img
+              src={require("./assets/lesson-provider.png")}
+              alt="provider-logo"
+              className="img-fluid"
+            />
+          </div>
+          <h3>Pronto Drive</h3>
+        </div>
         <Row>
           <Col md={6}>
             <BookingCalendar />

@@ -1,0 +1,28 @@
+.terms {
+  padding: 15px 0;
+
+  h3 {
+    font-family: "Axiforma-Semibold";
+  }
+  p {
+    font-family: "Axiforma-Light";
+    line-height: 1.625;
+  }
+
+  h6 {
+    font-family: "Axiforma-Regular";
+    line-height: 1.625;
+    color: rgb(82, 82, 82);
+  }
+
+  br {
+    margin-bottom: 0.5rem;
+  }
+
+  .text__layer {
+    h3 {
+      color: #673ab7;
+    }
+    padding: 20px 0;
+  }
+}

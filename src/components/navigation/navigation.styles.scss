@@ -22,7 +22,7 @@
 
     ul li {
       display: inline-block;
-      line-height: 80px;
+      line-height: 60px;
       margin: 0 5px;
     }
 
@@ -39,8 +39,8 @@
     .checkbtn {
       color: #ffffff;
       float: right;
-      line-height: 80px;
-      font-size: 50px;
+      line-height: 40px;
+      font-size: 60px;
       cursor: pointer;
       display: none;
     }
@@ -50,10 +50,7 @@
   }
 
   label {
-    color: #ffffff;
-    font-weight: bold;
     line-height: 80px;
-    font-size: 35px;
     a {
       img {
         width: 250px;
@@ -93,20 +90,21 @@
 
       ul {
         position: fixed;
-        width: 40%;
+        width: 45%;
         height: 100vh;
-        background: rgb(4, 123, 202);
+        background: #319afb;
         top: 0;
         left: -100%;
         text-align: center;
         transition: all 0.5s;
         z-index: 11111;
-        padding-top: 15px;
       }
 
       ul li {
-        display: block;
-        margin: 0 5px;
+        display: list-item;
+        text-align: left;
+        position: relative;
+        left: 10px;
       }
 
       #check:checked ~ ul {
@@ -115,8 +113,27 @@
     }
   }
 }
-@media (min-width: 320px) {
+@media (max-width: 375px) {
   .navigation__wrapper {
+    ul {
+      position: fixed;
+      width: 45%;
+      height: 100vh;
+      background: #319afb;
+      top: 0;
+      text-align: center;
+      transition: all 0.5s;
+      z-index: 11111;
+
+      li {
+        display: list-item;
+        position: relative;
+        left: 10px;
+      }
+    }
+    ul li label a img {
+      width: 140px;
+    }
     label {
       a {
         img {

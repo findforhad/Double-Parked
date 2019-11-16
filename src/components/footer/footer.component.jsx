@@ -57,13 +57,13 @@ const Footer = () => (
               <strong>Terms and condition</strong>
             </li>
             <li>
-              <Link to="/aboutus">Terms or use</Link>
+              <Link to="/terms">Terms or use</Link>
             </li>
             <li>
               <Link to="/contactus">Policies</Link>
             </li>
             <li>
-              <Link to="/careers">Privacy policy</Link>
+              <Link to="/privacy-policy">Privacy policy</Link>
             </li>
             <li>
               <Link to="/careers">FAQ</Link>
