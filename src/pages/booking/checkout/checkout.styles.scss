@@ -9,12 +9,32 @@
       margin-bottom: 0.4rem;
     }
 
+    button {
+      background: #80d047;
+      font-family: "Axiforma-SemiBold";
+      text-align: center;
+      box-shadow: 0px 0px 8px 0px #00000063;
+      border: none;
+      padding: 10px 35px;
+      border-radius: 30px;
+      color: #ffffff;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    h5 {
+      font-family: "Axiforma-Semibold";
+      margin: 0;
+      position: relative;
+      top: 5px;
+    }
+
     .input-item {
       padding: 10px 0;
 
       strong {
         font-family: "Axiforma-SemiBold";
-
+        color: #2d2d2d;
         span {
           color: #309afb;
         }
@@ -26,7 +46,7 @@
       input {
         width: 100%;
         font-family: "Axiforma-Light";
-        padding: 8px 15px;
+        padding: 8px 15px 6px;
         border: 1px solid #cad7e4;
         border-radius: 4px;
         font-size: 14px;
@@ -49,6 +69,105 @@
       text-align: left;
       margin-bottom: 0.5rem;
       color: $text-color;
+    }
+
+    .payment__method {
+      padding: 5px 0;
+      display: flex;
+      div {
+        margin: 0 25px 0 0;
+        input {
+          margin: 0 10px 0 0;
+        }
+        label {
+          font-family: "Axiforma-Light";
+        }
+      }
+    }
+
+    .booking__details {
+      border-radius: 3px;
+      border: 1px solid #cad7e4;
+      padding: 10px;
+
+      .time__date {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+
+        h4 {
+          margin: 0;
+          top: 10px;
+          position: relative;
+          color: #3ca6f9;
+        }
+        p {
+          margin-bottom: 0;
+          color: #2d2d2d;
+        }
+      }
+      .provider__info {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        h4 {
+          font-family: "Axiforma-Bold";
+          margin: 0;
+        }
+      }
+      .d_lesson {
+        padding: 10px;
+        p {
+          margin: 0;
+          color: #2d2d2d;
+        }
+      }
+      .d_lesson_container {
+        padding: 10px;
+        h4 {
+          margin: 0;
+          color: #2d2d2d;
+        }
+        .time__n__price {
+          display: flex;
+          justify-content: space-between;
+          margin-top: 10px;
+          p {
+            font-family: "Axiforma-Medium";
+            margin: 0;
+          }
+        }
+      }
+      .service__fee {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        p {
+          font-size: 13px;
+          margin: 0;
+        }
+      }
+      .total__order {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        h5 {
+          font-family: "Axiforma-Medium";
+          color: #2d2d2d;
+          margin: 0;
+        }
+      }
+
+      .clp {
+        padding: 10px;
+        p {
+          color: #2d2d2d;
+        }
+        .text_more {
+          font-size: 13px;
+          color: #7c7c7c;
+        }
+      }
     }
   }
 }

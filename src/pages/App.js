@@ -12,6 +12,7 @@ import HowItWorkInstructor from "./how-it-works/instructor/how-it-work.page";
 import HowItWorkLearner from "./how-it-works/learner/how-it-work-learner.page";
 import PrivacyPolicy from "./privacy-policy/privacy-policy.page";
 import TermsUse from "./terms-use/terms-use.page";
+import AboutUs from "./about-us/about-us.page";
 
 import Booking from "./booking/booking.page";
 import CheckoutPage from "./booking/checkout/checkout.page";
@@ -66,6 +67,7 @@ class App extends React.Component {
               <Route exact path="/book-your-lession" component={Booking} />
               <Route exact path="/privacy-policy" component={PrivacyPolicy} />
               <Route exact path="/terms" component={TermsUse} />
+              <Route exact path="/about-us" component={AboutUs} />
             </Switch>
             <Footer />
             <RemovalFooter />

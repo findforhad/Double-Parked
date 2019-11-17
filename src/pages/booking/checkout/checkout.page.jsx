@@ -114,13 +114,21 @@ class Checkout extends React.Component {
                 </Row>
                 <h4 className="mt-4">Payment</h4>
                 <hr />
-                <Row>
-                  <Col md={6}>
-                    <div className="input-item">
-                      <strong>Card details</strong>
-                    </div>
+                <div className="payment__method">
+                  <div>
+                    <input type="checkbox" />
+                    <label>Pay with card</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" />
+                    <label>Cash payment</label>
+                  </div>
+                </div>
+                <Row className="mb-2">
+                  <Col md={4} sm={6}>
+                    <h5>Card details</h5>
                   </Col>
-                  <Col md={6} style={{ textAlign: "right" }}>
+                  <Col md={6} sm={6} style={{ textAlign: "right" }}>
                     <img
                       src={require("./assets/card.png")}
                       alt="payment"
@@ -132,27 +140,23 @@ class Checkout extends React.Component {
                   <Col md={7}>
                     <div className="input-item">
                       <strong>
-                        Username <span>*</span>
+                        Card number <span>*</span>
                       </strong>
                       <br />
                       <input
                         type="text"
                         name="username"
-                        placeholder="Username..."
+                        placeholder="XXXX XXXX XXXX XXXX"
                       />
                     </div>
                   </Col>
                   <Col md={5}>
                     <div className="input-item">
                       <strong>
-                        Username <span>*</span>
+                        Security code <span>*</span>
                       </strong>
                       <br />
-                      <input
-                        type="text"
-                        name="username"
-                        placeholder="Username..."
-                      />
+                      <input type="text" name="username" placeholder="CVV" />
                     </div>
                   </Col>
                 </Row>
@@ -160,32 +164,83 @@ class Checkout extends React.Component {
                   <Col md={7}>
                     <div className="input-item">
                       <strong>
-                        Username <span>*</span>
+                        Cardholder’s name <span>*</span>
                       </strong>
                       <br />
                       <input
                         type="text"
                         name="username"
-                        placeholder="Username..."
+                        placeholder="Cardholder’s name..."
                       />
                     </div>
                   </Col>
                   <Col md={5}>
                     <div className="input-item">
                       <strong>
-                        Username <span>*</span>
+                        Expiry Date <span>*</span>
                       </strong>
                       <br />
-                      <input
-                        type="text"
-                        name="username"
-                        placeholder="Username..."
-                      />
+                      <input type="text" name="username" placeholder="mm/dd" />
                     </div>
                   </Col>
                 </Row>
+                <div className="payment__method">
+                  <div>
+                    <input type="checkbox" />
+                    <label>By continuing you agree to our Booking Terms</label>
+                  </div>
+                </div>
+                <button>Book Now</button>
               </Col>
-              <Col md={4}>input wrapper</Col>
+              <Col md={4}>
+                <div className="booking__details">
+                  <div className="time__date">
+                    <h4>6:05 PM</h4>
+                    <div>
+                      <p>1 September</p>
+                      <p>Sunday</p>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="provider__info">
+                    <h4>Instructor</h4>
+                    <h4 style={{ color: "#3ca6f9" }}>Pronto Drive</h4>
+                  </div>
+                  <hr />
+                  <div className="d_lesson">
+                    <p>Your driving lessons</p>
+                  </div>
+                  <hr />
+                  <div className="d_lesson_container">
+                    <h4>08:30 - 09:30</h4>
+                    <p>16 September, 2019</p>
+
+                    <div className="time__n__price">
+                      <p>60Min</p>
+                      <p>£30.00</p>
+                    </div>
+                  </div>
+                  <hr />
+                  <div className="service__fee">
+                    <p>Service Fees (10% Capped at £2.00)</p>
+                    <p>£2.00</p>
+                  </div>
+                  <hr />
+                  <div className="total__order">
+                    <h5>Order total</h5>
+                    <h5>£2.00</h5>
+                  </div>
+                  <hr />
+                  <div className="clp">
+                    <p>Cancellation policy A Reminder</p>
+                    <p className="text_more">
+                      If you need to reschedule or cancel your appointment, the
+                      instructor youre visiting loves it when you give as much
+                      notice as possible so they can re­fill your spot.
+                    </p>
+                  </div>
+                </div>
+              </Col>
             </Row>
           </div>
         </Container>

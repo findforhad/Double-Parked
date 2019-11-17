@@ -63,7 +63,7 @@ class SignIn extends React.Component {
             </div>
 
             <div className="input-item">
-              <strong>Email</strong>
+              <strong>Password</strong>
               <br />
               <input
                 type="password"

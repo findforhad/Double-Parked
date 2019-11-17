@@ -196,7 +196,7 @@ class SignupInstructor extends React.Component {
                       value={phone}
                       onChange={this.handleChange}
                       name="phone"
-                      placeholder="Email..."
+                      placeholder="Phone..."
                       className={errors.phone ? "error__true" : ""}
                     />
                   </div>
