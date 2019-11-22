@@ -10,9 +10,18 @@ const AppIntro = () => (
     <Container>
       <Row>
         <Col md={6}>
-          <div className="intro__text__two">
-            <h4>Pass fast with Double Parked</h4>
-            <p>Increase your chances of passing from top rated instructors.</p>
+          <div className="intro__text">
+            <div className="text">
+              <h4>Pass fast with Double Parked</h4>
+              <p>
+                Increase your chances of passing from top rated instructors.
+              </p>
+            </div>
+            <img
+              src={require("./assets/shapebg1.png")}
+              alt="shape"
+              className="img-fluid"
+            />
           </div>
         </Col>
         <Col md={6}>
@@ -36,6 +45,7 @@ const AppIntro = () => (
           </div>
         </Col>
       </Row>
+      <br />
       <Row>
         <Col md={6}>
           <div className="mobile__wrapper__one">
@@ -58,9 +68,18 @@ const AppIntro = () => (
           </div>
         </Col>
         <Col md={6}>
-          <div className="intro__text__two">
-            <h4>Pass fast with Double Parked</h4>
-            <p>Increase your chances of passing from top rated instructors.</p>
+          <div className="intro__text">
+            <div className="text2">
+              <h4>Pass fast with Double Parked</h4>
+              <p>
+                Increase your chances of passing from top rated instructors.
+              </p>
+            </div>
+            <img
+              src={require("./assets/shapebg2.png")}
+              alt="shape"
+              className="img-fluid"
+            />
           </div>
         </Col>
       </Row>

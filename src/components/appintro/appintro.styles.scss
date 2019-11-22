@@ -1,26 +1,79 @@
 @import "../../pages/default.styles.scss";
 
+@media (max-width: 576px) {
+  .appintro__wrapper {
+    .intro__text {
+      height: 300px !important;
+      position: relative;
+
+      .text {
+        top: 45%;
+        position: absolute;
+        text-align: center;
+        left: 0;
+      }
+    }
+  }
+}
+
 .appintro__wrapper {
   margin-top: -100px;
   background: #f6f9fc;
   clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
-  padding-bottom: 3%;
+  padding-bottom: 7rem;
   margin-top: -10%;
   padding-top: 12%;
+
+  .intro__text {
+    height: 100%;
+    img {
+      position: absolute;
+      height: 100%;
+    }
+    .text2 {
+      top: 35%;
+      position: absolute;
+      text-align: left;
+
+      h4 {
+        font-family: "Axiforma-Medium";
+        color: rgb(45, 45, 45);
+        line-height: 1.867;
+      }
+
+      p {
+        font-family: "Axiforma-Thin";
+        color: rgb(45, 45, 45);
+        line-height: 1.867;
+      }
+    }
+    .text {
+      top: 48%;
+      position: absolute;
+      text-align: right;
+      right: 0;
+
+      h4 {
+        font-family: "Axiforma-Medium";
+        color: rgb(45, 45, 45);
+        line-height: 1.867;
+      }
+
+      p {
+        font-family: "Axiforma-Thin";
+        color: rgb(45, 45, 45);
+        line-height: 1.867;
+      }
+    }
+  }
 
   .intro__text__one {
     text-align: end;
     top: 48%;
     position: relative;
-    h4 {
-      font-family: "Axiforma-Medium";
-    }
-
-    p {
-      font-family: "Axiforma-Thin";
-    }
   }
   .intro__text__two {
+    // background: url("./assets/shapebg1.png");
     top: 48%;
     position: relative;
 

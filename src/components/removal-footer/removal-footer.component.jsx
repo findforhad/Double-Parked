@@ -36,6 +36,9 @@ const RemovalFooter = () => (
     <Link to="/terms" style={{ margin: "5px" }}>
       Terms or use
     </Link>
+    <Link to="/about-us" style={{ margin: "5px" }}>
+      About Us
+    </Link>
   </ul>
 );
 

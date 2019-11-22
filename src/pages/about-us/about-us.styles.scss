@@ -1,0 +1,115 @@
+.about__us__wrapper {
+  padding: 20px 0;
+
+  h3 {
+    font-family: "Axiforma-Medium";
+    color: #2d2d2d;
+    line-height: 1.583;
+  }
+  h4 {
+    font-family: "Axiforma-Regular";
+    color: #525252;
+    line-height: 1.583;
+  }
+
+  span {
+    font-family: "Axiforma-Thin";
+    line-height: 1.583;
+  }
+
+  p {
+    font-family: "Axiforma-Thin";
+    line-height: 1.583;
+  }
+  ul {
+    list-style: none;
+    margin-bottom: 0;
+
+    li {
+      label {
+        display: -webkit-inline-box;
+
+        .blue_dot {
+          margin-right: 10px;
+          position: relative;
+          top: 6px;
+          border-radius: 100%;
+          background-color: #20a7fc;
+          width: 10px;
+          height: 11px;
+        }
+
+        span {
+          font-family: "Axiforma-Regular";
+          line-height: 1.647;
+          color: #2d2d2d;
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .text__wrapper {
+    position: relative;
+    top: 15%;
+  }
+  .sec_img {
+    text-align: center;
+  }
+
+  .give__way {
+    background: #f6f9fc;
+    .text__wrapper {
+      position: relative;
+      top: 25%;
+    }
+  }
+
+  .century {
+    padding: 20px 0;
+  }
+  .features {
+    background: #f6f9fc;
+    padding: 20px 0;
+    .text__wrapper {
+      position: relative;
+      top: 25%;
+    }
+  }
+
+  .stand__out {
+    padding: 20px 0;
+    .text__wrapper {
+      position: relative;
+      top: 25%;
+    }
+  }
+  .simple {
+    background: #f6f9fc;
+    padding: 20px 0;
+    .text__wrapper {
+      position: relative;
+      top: 30%;
+    }
+  }
+  .performance {
+    padding: 20px 0;
+    .text__wrapper {
+      top: 0;
+      h4 {
+        font-family: "Axiforma-Medium";
+        color: #525252;
+        line-height: 1.583;
+      }
+      h5 {
+        font-family: "Axiforma-Regular";
+        color: #525252;
+        line-height: 1.583;
+      }
+      h6 {
+        font-family: "Axiforma-Regular";
+        line-height: 1.583;
+      }
+    }
+  }
+}
