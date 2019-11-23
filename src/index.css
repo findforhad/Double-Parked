@@ -1,3 +1,21 @@
 .cmb {
   margin-bottom: 0.3rem;
 }
+/* .hamburger-inner::after {
+  bottom: -12px;
+  background-color: #ffffff;
+  width: 50px;
+}
+.hamburger-inner::before {
+  top: -12px;
+  width: 50px;
+  background-color: #ffffff;
+}
+.hamburger-inner {
+  background-color: #ffffff;
+}
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after {
+  background-color: #ffffff;
+} */

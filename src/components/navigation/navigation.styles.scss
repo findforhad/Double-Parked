@@ -15,6 +15,10 @@
     height: 80px;
     width: 100%;
 
+    button {
+      display: none;
+    }
+
     ul {
       float: right;
       list-style: none;
@@ -37,12 +41,7 @@
     }
 
     .checkbtn {
-      color: #ffffff;
       float: right;
-      line-height: 40px;
-      font-size: 60px;
-      cursor: pointer;
-      display: none;
     }
     #check {
       display: none;
@@ -62,6 +61,9 @@
 @media (max-width: 952px) {
   .navigation__wrapper {
     nav {
+      button {
+        display: inline-block;
+      }
       .logo {
         color: #ffffff;
         font-weight: bold;
@@ -82,6 +84,53 @@
       .checkbtn {
         display: block;
         cursor: pointer !important;
+      }
+      .hamburger-box {
+        width: 40px;
+        height: 24px;
+        display: inline-block;
+        position: relative;
+        top: 15px;
+      }
+
+      .hamburger-inner,
+      .hamburger-inner::before,
+      .hamburger-inner::after {
+        width: 40px;
+        height: 5px;
+        background-color: #fff;
+        border-radius: 5px;
+        position: absolute;
+        transition-property: transform;
+        transition-duration: 0.2s;
+        transition-timing-function: ease-in-out;
+      }
+      .hamburger.is-active .hamburger-inner,
+      .hamburger.is-active .hamburger-inner::before,
+      .hamburger.is-active .hamburger-inner::after {
+        background-color: #fff;
+        width: 40px;
+      }
+      .hamburger-inner {
+        width: 30px;
+      }
+      .hamburger.is-active:hover {
+        opacity: 1;
+      }
+      .hamburger:hover {
+        opacity: 1;
+      }
+      .hamburger-inner {
+        width: 50px;
+        display: flex;
+        justify-content: flex-end;
+        right: 0;
+      }
+      .hamburger-inner::before {
+        top: -12px;
+      }
+      .hamburger-inner::after {
+        bottom: -12px;
       }
 
       .checkbtn:hover {

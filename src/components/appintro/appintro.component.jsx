@@ -50,7 +50,7 @@ const AppIntro = () => (
         <Col md={6}>
           <div className="mobile__wrapper__one">
             <ScrollAnimation animateIn="fadeInLeft">
-              <Fade right>
+              <Fade left>
                 <img
                   alt="MobileOne"
                   src={require("./assets/mob3.png")}
